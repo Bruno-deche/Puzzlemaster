@@ -1,0 +1,6 @@
+CREATE TABLE IF NOT EXISTS testsetpositions (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    state TEXT NOT NULL,
+    moves INT NOT NULL,
+    level VARCHAR(10) NOT NULL
+);
